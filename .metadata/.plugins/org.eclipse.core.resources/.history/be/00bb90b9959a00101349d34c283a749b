@@ -1,0 +1,31 @@
+package testNg;
+
+import java.net.http.WebSocket;
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class OrangeHrmsTest {
+	 WebDriver driver;
+  @Test(priority = 1)
+  void openApp() {
+	  driver=new ChromeDriver();
+	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	  driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+	  driver.manage().window().maximize();
+  }
+  @Test(priority = 2)
+  void testLogo() {
+	  driver.findElement(By.xpath("//img[@alt='company-branding']")).isDisplayed();
+	  
+  }
+  
+  @Test(priority = 3)
+  void testLogin() {
+	  driver.quit();
+	  
+  }
+}

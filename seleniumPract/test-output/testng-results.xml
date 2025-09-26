@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-26T19:14:12 IST" name="Default suite" finished-at="2025-09-26T19:14:12 IST" duration-ms="36">
+    <groups>
+    </groups>
+    <test started-at="2025-09-26T19:14:12 IST" name="Default test" finished-at="2025-09-26T19:14:12 IST" duration-ms="36">
+      <class name="linstener.testNgDay1">
+        <test-method signature="login()[pri:1, instance:linstener.testNgDay1@16293aa2]" started-at="2025-09-26T19:14:12 IST" name="login" finished-at="2025-09-26T19:14:12 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="homePage()[pri:2, instance:linstener.testNgDay1@16293aa2]" started-at="2025-09-26T19:14:12 IST" name="homePage" finished-at="2025-09-26T19:14:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+      </class> <!-- linstener.testNgDay1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

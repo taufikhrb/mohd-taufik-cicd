@@ -1,0 +1,8 @@
+package seleniumPract;
+
+public class seleniumPract {
+	public static void main(String[] args) {
+		System.out.println("taufik");
+	}
+
+}
