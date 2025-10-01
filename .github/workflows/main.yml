@@ -2,7 +2,7 @@ name: Selenium CI
 
 on:
   push:
-    branches: ['branch/cicd']   # Change to your branch name or use ['*'] for all branches
+    branches: ['branch/cicd']  # Change to your branch or ['*'] for all
   pull_request:
     branches: ['branch/cicd']
 
@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Checkout repository
-      - name: Checkout code
+      # 1. Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       # 2. Set up JDK 17
@@ -31,20 +31,26 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
 
-      # 4. Build Maven project
+      # 4. Install Google Chrome
+      - name: Install Google Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      # 5. Build Maven project
       - name: Build Project
         run: mvn clean install -DskipTests
-        working-directory: seleniumProject   # <--- change to your project subfolder
+        working-directory: seleniumProject   # change if your project folder is different
 
-      # 5. Run Selenium tests
+      # 6. Run Selenium Tests (Headless Chrome)
       - name: Run Selenium Tests
         run: mvn test
-        working-directory: seleniumProject   # <--- change to your project subfolder
+        working-directory: seleniumProject
+        env:
+          JAVA_TOOL_OPTIONS: "-Dwebdriver.chrome.driver=/usr/bin/google-chrome"
 
-      # 6. Archive Test Reports
+      # 7. Archive Test Reports
       - name: Archive Test Reports
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: test-reports
-          path: seleniumProject/target/surefire-reports/   # <--- adjust if reports folder is different
+          path: seleniumProject/target/surefire-reports/
