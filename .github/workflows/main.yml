@@ -2,9 +2,9 @@ name: Selenium CI
 
 on:
   push:
-    branches: ['branch/cicd']  # Change to your branch or ['*'] for all
+    branches: ['main']  # Change to your branch or ['*'] for all
   pull_request:
-    branches: ['branch/cicd']
+    branches: ['main']
 
 jobs:
   test:
