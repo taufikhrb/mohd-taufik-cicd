@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2814","open multiple contexts and pages in same test","chromium","Tue Oct 07 14:42:03 IST 2025","passed","Tue Oct 07 14:42:05 IST 2025","","twoContextInOneTest.spec.ts","",""

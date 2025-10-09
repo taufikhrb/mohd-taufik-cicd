@@ -1,0 +1,430 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - paragraph [ref=e3]:
+    - link "TestifyStack" [ref=e4] [cursor=pointer]:
+      - /url: https://testifystack.com/
+    - text: "| Email, SMS, OTP and Webhooks Testing Stack for QA & Dev"
+    - link "Software testing tools" [ref=e5] [cursor=pointer]:
+      - img [ref=e7]
+      - text: Software testing tools
+    - link "Quality assurance jobs" [ref=e9] [cursor=pointer]:
+      - img [ref=e11]
+      - text: Quality assurance jobs
+  - banner [ref=e14]:
+    - navigation "Main navigation" [ref=e15]:
+      - link "SUT" [ref=e16] [cursor=pointer]:
+        - /url: /
+        - 'img "Best Website for Practice Automation Testing: Free UI and REST API Examples and Apps. Using Cypress, Playwright, Selenium, WebdriverIO and Postman." [ref=e17]'
+        - text: Practice
+      - generic [ref=e18]:
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - button "Demos" [ref=e21] [cursor=pointer]
+          - listitem [ref=e22]:
+            - link "Tools" [ref=e23] [cursor=pointer]:
+              - /url: /#tools
+          - listitem [ref=e24]:
+            - link "Tips" [ref=e25] [cursor=pointer]:
+              - /url: /tips
+          - listitem [ref=e26]:
+            - link "Test Cases" [ref=e27] [cursor=pointer]:
+              - /url: /test-cases
+          - listitem [ref=e28]:
+            - link "API Testing" [ref=e29] [cursor=pointer]:
+              - /url: /notes/api/api-docs/
+          - listitem [ref=e30]:
+            - link "About" [ref=e31] [cursor=pointer]:
+              - /url: /about
+        - list
+        - link "Free ISTQB Mock Exams" [ref=e32] [cursor=pointer]:
+          - /url: https://istqb.expandtesting.com/
+  - main [ref=e33]:
+    - insertion [ref=e37]:
+      - iframe [ref=e39]:
+        - generic [active] [ref=f1e1]:
+          - generic [ref=f1e6]:
+            - link "BarrierBreak" [ref=f1e8] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CqzSS5SPnaM69BOSgssUPiMXUUKngoZCAAby2kJn7E8CNtwEQASCVlJmjAWDlmumD4A6gAeqvtswDyAEBqQK0NJbeSi9IPqgDAcgDwwSqBO0BT9CpvNwYVggs_GsQdvyTYoJ6ismeZBRlTssaygErLWkslmE3u6lNgEWICE7s6zTQGg1dMlHOVkeq8nUagXxae6Lof1k-qOKhdBkVdMCrENfs_kXc0oWKzH0HNfDc0u5HqAwiGZGkpQuDOKgDDy1BMH8in-IozxyW8HALC_8cm47LdWVLB0NneaX0tjNgCpv4nJJjC22rUBsfHj5tjMElWmbCIriU8581N7tJqvcFO7of01mihI0yb72jPuDGJ-S4Ndb1_jzNXRiEq1CmWsZsozn94NL21eFwG0w0YhzCMsf_V8ZcBpvErfhlcxX9wAS179vUowWIBen_mc9UoAZmgAf-z8kzqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAfKqbECqAfrpbECqAfqsbECqAeZtbECqAe-t7ECqAf4wrECqAf7wrEC2AcB0ggpCIBhEAEYnwEyAooCOg2AQIDAgICAgKiAAqgDSL39wTpY4qLY246WkAOxCYgX-bMKcde_gAoBmAsByAsB2gwRCgsQsNLy5v21lMOSARICAQOqDQJJTsgNAeoNEwjplejbjpaQAxVkkKwCHYgiFQrwDQKIDgnYEw2IFALQFQHKFgIKAPgWAYAXAbIXDhgBKgo0OTcwMjEyMjIxuhcCOAGqGBcJAAAAAADs80ASCjQ5NzAyMTIyMjEYAbIYCRICuFAYZiIBANAYAcIZAggB&ae=1&ase=2&gclid=EAIaIQobChMIjsTY246WkAMVZJCsAh2IIhUKEAEYASAAEgIUUvD_BwE&num=1&cid=CAQSsgEAwksa0QL5IiK7awBjGmUuku53E9kVYMSUxqeCN0oAweFo25r91rL1KMe-_vYsv_JzEZ8P9hdIT-gZedhfq9tu_fBC4ehiW3_8DLlOjd8sj-8Arys1T9WjP2hfLe5e1WUlviVa9pBRKaveMtdGNQ9Qvmw5IhRf1cTKQkuy5oWI7JLmqVtExJx2_CoA8y6wDLZc_x8NW4ekTchY1AUXpLuz49tIKCGIa3BCYjEK9lpiFDghGAE&sig=AOD64_0EBUMj1cGVNjt-GtP0bWad2QqkSQ&client=ca-pub-1056034821646296&rf=1&nb=1&adurl=https://www.barrierbreak.com/a11ynow/%3Fgad_source%3D5%26gad_campaignid%3D22714679273%26gclid%3DEAIaIQobChMIjsTY246WkAMVZJCsAh2IIhUKEAEYASAAEgIUUvD_BwE
+            - generic [ref=f1e9]:
+              - link "SAAS Accessibility Platform" [ref=f1e10] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CqzSS5SPnaM69BOSgssUPiMXUUKngoZCAAby2kJn7E8CNtwEQASCVlJmjAWDlmumD4A6gAeqvtswDyAEBqQK0NJbeSi9IPqgDAcgDwwSqBO0BT9CpvNwYVggs_GsQdvyTYoJ6ismeZBRlTssaygErLWkslmE3u6lNgEWICE7s6zTQGg1dMlHOVkeq8nUagXxae6Lof1k-qOKhdBkVdMCrENfs_kXc0oWKzH0HNfDc0u5HqAwiGZGkpQuDOKgDDy1BMH8in-IozxyW8HALC_8cm47LdWVLB0NneaX0tjNgCpv4nJJjC22rUBsfHj5tjMElWmbCIriU8581N7tJqvcFO7of01mihI0yb72jPuDGJ-S4Ndb1_jzNXRiEq1CmWsZsozn94NL21eFwG0w0YhzCMsf_V8ZcBpvErfhlcxX9wAS179vUowWIBen_mc9UoAZmgAf-z8kzqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAfKqbECqAfrpbECqAfqsbECqAeZtbECqAe-t7ECqAf4wrECqAf7wrEC2AcB0ggpCIBhEAEYnwEyAooCOg2AQIDAgICAgKiAAqgDSL39wTpY4qLY246WkAOxCYgX-bMKcde_gAoBmAsByAsB2gwRCgsQsNLy5v21lMOSARICAQOqDQJJTsgNAeoNEwjplejbjpaQAxVkkKwCHYgiFQrwDQKIDgnYEw2IFALQFQHKFgIKAPgWAYAXAbIXDhgBKgo0OTcwMjEyMjIxuhcCOAGqGBcJAAAAAADs80ASCjQ5NzAyMTIyMjEYAbIYCRICuFAYZiIBANAYAcIZAggB&ae=1&ase=2&gclid=EAIaIQobChMIjsTY246WkAMVZJCsAh2IIhUKEAEYASAAEgIUUvD_BwE&num=1&cid=CAQSsgEAwksa0QL5IiK7awBjGmUuku53E9kVYMSUxqeCN0oAweFo25r91rL1KMe-_vYsv_JzEZ8P9hdIT-gZedhfq9tu_fBC4ehiW3_8DLlOjd8sj-8Arys1T9WjP2hfLe5e1WUlviVa9pBRKaveMtdGNQ9Qvmw5IhRf1cTKQkuy5oWI7JLmqVtExJx2_CoA8y6wDLZc_x8NW4ekTchY1AUXpLuz49tIKCGIa3BCYjEK9lpiFDghGAE&sig=AOD64_0EBUMj1cGVNjt-GtP0bWad2QqkSQ&client=ca-pub-1056034821646296&rf=1&nb=0&adurl=https://www.barrierbreak.com/a11ynow/%3Fgad_source%3D5%26gad_campaignid%3D22714679273%26gclid%3DEAIaIQobChMIjsTY246WkAMVZJCsAh2IIhUKEAEYASAAEgIUUvD_BwE
+              - link "Managed Services by Experts" [ref=f1e11] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CqzSS5SPnaM69BOSgssUPiMXUUKngoZCAAby2kJn7E8CNtwEQASCVlJmjAWDlmumD4A6gAeqvtswDyAEBqQK0NJbeSi9IPqgDAcgDwwSqBO0BT9CpvNwYVggs_GsQdvyTYoJ6ismeZBRlTssaygErLWkslmE3u6lNgEWICE7s6zTQGg1dMlHOVkeq8nUagXxae6Lof1k-qOKhdBkVdMCrENfs_kXc0oWKzH0HNfDc0u5HqAwiGZGkpQuDOKgDDy1BMH8in-IozxyW8HALC_8cm47LdWVLB0NneaX0tjNgCpv4nJJjC22rUBsfHj5tjMElWmbCIriU8581N7tJqvcFO7of01mihI0yb72jPuDGJ-S4Ndb1_jzNXRiEq1CmWsZsozn94NL21eFwG0w0YhzCMsf_V8ZcBpvErfhlcxX9wAS179vUowWIBen_mc9UoAZmgAf-z8kzqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAfKqbECqAfrpbECqAfqsbECqAeZtbECqAe-t7ECqAf4wrECqAf7wrEC2AcB0ggpCIBhEAEYnwEyAooCOg2AQIDAgICAgKiAAqgDSL39wTpY4qLY246WkAOxCYgX-bMKcde_gAoBmAsByAsB2gwRCgsQsNLy5v21lMOSARICAQOqDQJJTsgNAeoNEwjplejbjpaQAxVkkKwCHYgiFQrwDQKIDgnYEw2IFALQFQHKFgIKAPgWAYAXAbIXDhgBKgo0OTcwMjEyMjIxuhcCOAGqGBcJAAAAAADs80ASCjQ5NzAyMTIyMjEYAbIYCRICuFAYZiIBANAYAcIZAggB&ae=1&ase=2&gclid=EAIaIQobChMIjsTY246WkAMVZJCsAh2IIhUKEAEYASAAEgIUUvD_BwE&num=1&cid=CAQSsgEAwksa0QL5IiK7awBjGmUuku53E9kVYMSUxqeCN0oAweFo25r91rL1KMe-_vYsv_JzEZ8P9hdIT-gZedhfq9tu_fBC4ehiW3_8DLlOjd8sj-8Arys1T9WjP2hfLe5e1WUlviVa9pBRKaveMtdGNQ9Qvmw5IhRf1cTKQkuy5oWI7JLmqVtExJx2_CoA8y6wDLZc_x8NW4ekTchY1AUXpLuz49tIKCGIa3BCYjEK9lpiFDghGAE&sig=AOD64_0EBUMj1cGVNjt-GtP0bWad2QqkSQ&client=ca-pub-1056034821646296&rf=1&nb=0&adurl=https://www.barrierbreak.com/a11ynow/%3Fgad_source%3D5%26gad_campaignid%3D22714679273%26gclid%3DEAIaIQobChMIjsTY246WkAMVZJCsAh2IIhUKEAEYASAAEgIUUvD_BwE
+                - text: Managed Services by
+                - text: Experts
+              - link "The Market Leading Platform You Need to Meet Accessibility Compliance. Book a Demo Today." [ref=f1e12] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CqzSS5SPnaM69BOSgssUPiMXUUKngoZCAAby2kJn7E8CNtwEQASCVlJmjAWDlmumD4A6gAeqvtswDyAEBqQK0NJbeSi9IPqgDAcgDwwSqBO0BT9CpvNwYVggs_GsQdvyTYoJ6ismeZBRlTssaygErLWkslmE3u6lNgEWICE7s6zTQGg1dMlHOVkeq8nUagXxae6Lof1k-qOKhdBkVdMCrENfs_kXc0oWKzH0HNfDc0u5HqAwiGZGkpQuDOKgDDy1BMH8in-IozxyW8HALC_8cm47LdWVLB0NneaX0tjNgCpv4nJJjC22rUBsfHj5tjMElWmbCIriU8581N7tJqvcFO7of01mihI0yb72jPuDGJ-S4Ndb1_jzNXRiEq1CmWsZsozn94NL21eFwG0w0YhzCMsf_V8ZcBpvErfhlcxX9wAS179vUowWIBen_mc9UoAZmgAf-z8kzqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAfKqbECqAfrpbECqAfqsbECqAeZtbECqAe-t7ECqAf4wrECqAf7wrEC2AcB0ggpCIBhEAEYnwEyAooCOg2AQIDAgICAgKiAAqgDSL39wTpY4qLY246WkAOxCYgX-bMKcde_gAoBmAsByAsB2gwRCgsQsNLy5v21lMOSARICAQOqDQJJTsgNAeoNEwjplejbjpaQAxVkkKwCHYgiFQrwDQKIDgnYEw2IFALQFQHKFgIKAPgWAYAXAbIXDhgBKgo0OTcwMjEyMjIxuhcCOAGqGBcJAAAAAADs80ASCjQ5NzAyMTIyMjEYAbIYCRICuFAYZiIBANAYAcIZAggB&ae=1&ase=2&gclid=EAIaIQobChMIjsTY246WkAMVZJCsAh2IIhUKEAEYASAAEgIUUvD_BwE&num=1&cid=CAQSsgEAwksa0QL5IiK7awBjGmUuku53E9kVYMSUxqeCN0oAweFo25r91rL1KMe-_vYsv_JzEZ8P9hdIT-gZedhfq9tu_fBC4ehiW3_8DLlOjd8sj-8Arys1T9WjP2hfLe5e1WUlviVa9pBRKaveMtdGNQ9Qvmw5IhRf1cTKQkuy5oWI7JLmqVtExJx2_CoA8y6wDLZc_x8NW4ekTchY1AUXpLuz49tIKCGIa3BCYjEK9lpiFDghGAE&sig=AOD64_0EBUMj1cGVNjt-GtP0bWad2QqkSQ&client=ca-pub-1056034821646296&rf=1&nb=7&adurl=https://www.barrierbreak.com/a11ynow/%3Fgad_source%3D5%26gad_campaignid%3D22714679273%26gclid%3DEAIaIQobChMIjsTY246WkAMVZJCsAh2IIhUKEAEYASAAEgIUUvD_BwE
+                - text: The Market Leading Platform You Need to
+                - text: Meet Accessibility Compliance. Book a Demo Today.
+            - link "OPEN" [ref=f1e14] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CqzSS5SPnaM69BOSgssUPiMXUUKngoZCAAby2kJn7E8CNtwEQASCVlJmjAWDlmumD4A6gAeqvtswDyAEBqQK0NJbeSi9IPqgDAcgDwwSqBO0BT9CpvNwYVggs_GsQdvyTYoJ6ismeZBRlTssaygErLWkslmE3u6lNgEWICE7s6zTQGg1dMlHOVkeq8nUagXxae6Lof1k-qOKhdBkVdMCrENfs_kXc0oWKzH0HNfDc0u5HqAwiGZGkpQuDOKgDDy1BMH8in-IozxyW8HALC_8cm47LdWVLB0NneaX0tjNgCpv4nJJjC22rUBsfHj5tjMElWmbCIriU8581N7tJqvcFO7of01mihI0yb72jPuDGJ-S4Ndb1_jzNXRiEq1CmWsZsozn94NL21eFwG0w0YhzCMsf_V8ZcBpvErfhlcxX9wAS179vUowWIBen_mc9UoAZmgAf-z8kzqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAfKqbECqAfrpbECqAfqsbECqAeZtbECqAe-t7ECqAf4wrECqAf7wrEC2AcB0ggpCIBhEAEYnwEyAooCOg2AQIDAgICAgKiAAqgDSL39wTpY4qLY246WkAOxCYgX-bMKcde_gAoBmAsByAsB2gwRCgsQsNLy5v21lMOSARICAQOqDQJJTsgNAeoNEwjplejbjpaQAxVkkKwCHYgiFQrwDQKIDgnYEw2IFALQFQHKFgIKAPgWAYAXAbIXDhgBKgo0OTcwMjEyMjIxuhcCOAGqGBcJAAAAAADs80ASCjQ5NzAyMTIyMjEYAbIYCRICuFAYZiIBANAYAcIZAggB&ae=1&ase=2&gclid=EAIaIQobChMIjsTY246WkAMVZJCsAh2IIhUKEAEYASAAEgIUUvD_BwE&num=1&cid=CAQSsgEAwksa0QL5IiK7awBjGmUuku53E9kVYMSUxqeCN0oAweFo25r91rL1KMe-_vYsv_JzEZ8P9hdIT-gZedhfq9tu_fBC4ehiW3_8DLlOjd8sj-8Arys1T9WjP2hfLe5e1WUlviVa9pBRKaveMtdGNQ9Qvmw5IhRf1cTKQkuy5oWI7JLmqVtExJx2_CoA8y6wDLZc_x8NW4ekTchY1AUXpLuz49tIKCGIa3BCYjEK9lpiFDghGAE&sig=AOD64_0EBUMj1cGVNjt-GtP0bWad2QqkSQ&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://www.barrierbreak.com/a11ynow/%3Fgad_source%3D5%26gad_campaignid%3D22714679273%26gclid%3DEAIaIQobChMIjsTY246WkAMVZJCsAh2IIhUKEAEYASAAEgIUUvD_BwE
+              - generic [ref=f1e15]: OPEN
+              - img [ref=f1e17]
+          - img [ref=f1e22] [cursor=pointer]
+          - button [ref=f1e24] [cursor=pointer]:
+            - img [ref=f1e25]
+          - iframe
+    - paragraph [ref=e41]:
+      - text: Do you enjoy this platform? ❤️
+      - link "Buy us a coffee" [ref=e42] [cursor=pointer]:
+        - /url: https://www.buymeacoffee.com/expandtesting
+    - generic [ref=e43]:
+      - insertion [ref=e45]:
+        - iframe [ref=e47]:
+          - iframe [ref=f2e1]:
+            - generic [ref=f3e2]:
+              - link "Advertisement" [ref=f3e4] [cursor=pointer]:
+                - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjsvapCyXiLM5Hnlm1FV9lbF6KfdLc80aBpYnaKtuyub1fIJHxI_tCmGZsrdGzyIkkvB4g_zPS-C64HNZTGjO-nQ2CkhLMkZ0eAop1LG0gzGYiyVFVu_f-m8ynwCgk-6fcvyOnLZG_LLc_OChCrjEodYcQ5bTd00Ic2gBBeDTJd5jte0sCpZ3O0a2P3c-Tn36ty1xavfgUnYggngCBjGhr6JytBXTKrYQSlYT3FeuAfwBCajtVebVWCBVUyUlbcOJediLthPf8ZivGqx2dDMUnE_9ycw4e3OUHpO99zfOjv-VaxjYZD9L2O5yMgXUERi-oaelEp0LcDfQmXPNGX8Vn6jWLXESU7rsKReUlfQreIwlFGv40_VIwqrGcqPi8tOGnHuOTFd7nBcN_IVXJQEyENhcTO9S96OEyqv_35SpTx7T4g-NUXDBasbrhylh3f8YQ2HxC7sIcwppa0AcRffF-2jr5JN3oKYcU67_mz8QufnkxvTycuXMeLTMGxQu6TEPo7HxfG5uJtUHN9a7TeUsxFTTyATsULatCeZPcG-5PhtA8gIDZ9sHukQuGuUdfdX7rAG0igs-xUmVgILfOTvphCbbT9zQmAZUl8IG0cWI8ZJKFXyhaRzWoP-0W7fELSFcf_iyqCCA7waylQZnldOdFpzHvOrvYDpmBsojBI6ZtBstz_kQCf5E3fiIRIdF8H83pWg4yCPO7ShI5onCHWneOSmt2Rcw4J_0PYOz52W_zRE-q2GUlxTi-KVFQR8_QyERin_ltRzX2X-6Um57v2Q-LuGsISkkaLPjZWmx5QftDVw_kYUpNYyOWMsoaKrcYoq4hHouT63xIdR191wGmdDMeFMAtM91i7Um04iArEmJn0SqwiLYUzjdiBf6om1zRAhGmViurx7pJX2NHF0x6dw67JcdIiTCPsknGToZBP5B05v-RLaSkfvrlWP0kK7NhMQJzlOM-5j5j8U_hGaQJAwzlgQeWH7nD2vqPsMs91GxvCtM5vknxbeia41O3tpERNksDaCIf_74DUgOkGHPQxB-n1eF0hMvhy3BmonB-wCWsG1gxWGqTbG3MaCUudmAe38jVzSU1q1V95EwooagXyrGTsViF068A1lj79k2_m6n9RF2OwYfgrMz4tcTk_z1w53Z50JzqGiV4klOGiDo9Tr0TeW_56KJDoyLVfOdNsSU7dlmB4lbmchtueLhWcAXjH3TejwKXQrr5fMwixjKvpxC0zVz7Bz9WorroxmsbyYC9bchfd_N0YuvW5cLLpuTpHJSJC5I9qBarXsKZaxEAKdxgmtRLXusf57uOBxuQiFoGP2_CyjbX-MjZvkMYxqpQlxQGlBhsZ3_Q9p8fiXfv7mI22lPrw7o5B7ott2NsuzC93qbFAODN-uxCPPknuQ-MAORXRejbdITrWrH9gds5v6G2G7Fmm7faQpN0wY0O5oZqPPW4peD9FGV9d1IPJzup0t_Sv_482LProWgtMTKm5Af9nLRe71aQL9BmwU12LM4twqzuHeGt_NQ469MtCXVQSUmAasf9roePFqHODdoP07CEJn1K_iGy3WqbB83&sai=AMfl-YSE6owm6AFa6ty7ejXC03ijMKtfAHHe1Bso-VN-NdqZ3LjcrAwEDfaJYtsHCTzi7pIapDK9jWaAShWyx7bg6It-6yWtV0q7AUklQHtkKIXtcqLyQRLSqnUIOIHahLw9bJFd13o-YXi0SYSkOW3TYRwXa9oPLarUsgE8GPYY-WgixAbTXl20XJja6dDTWCarRxk0rze84k5oQ13vcQDbA7yvVjENIwRNVlCwlwztB9OiRF7YlH1qE61dMUU_kDgIQqjUtjc1im0iGkJntzhCxdTxqD527gRyqJK7D3SiudcQE3gAJvl-nS9PH-VWYqVyh5_WRVW6NQEvMSPatEdQ9AA4J5Is2b3JupEzeFkrHtEHUW1v9t1i_LD41cGQaZyn9Ku3wqor-qg-X5E_6TPdwEX4izs7ZkiLwvVJPqX9ppSSepDDGpJuABnyMv43lHNB0DH2MLiTEoQgyM8FA5ffUpgqDroRVVikdLjbE9U-Uaz9IRA10tBT3w7YNl8NhKOcNXdEtYhFw3oauF-VG9MbIbu_xzCtJF2JZxZu4p_OjGm_6DKHDn5tWfpa37pwa4eoQTwEhKkk113q0ZW3VgTgc52dmPFWPMoT2bhIXQJq_zjv6eQ6zu47RfbXX8hC7zPTkeKisTLqPLVNxnLci8twQf0X8pDqN48&sig=Cg0ArKJSzKeJOW64GOJS&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly92aXZvLmNvbQ&urlfix=1&adurl=https://www.vivo.com/in/products/v60e%3Futm_source%3Dprogdisp%26utm_medium%3Dcpm_prebook%26utm_campaign%3Dbrand_v60e%26utm_content%3Dstatic_custom_intent%26utm_term%3D160X600%26dclid%3D%25edclid!%26gad_source%3D7
+                - img "Advertisement" [ref=f3e5]
+              - generic [ref=f3e6]:
+                - generic:
+                  - img [ref=f3e10] [cursor=pointer]
+                  - button [ref=f3e12] [cursor=pointer]:
+                    - img [ref=f3e13]
+      - generic [ref=e50]:
+        - navigation "breadcrumb mb-2" [ref=e51]:
+          - list [ref=e52]:
+            - listitem [ref=e53]:
+              - link "Home" [ref=e54] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e55]: / Dropdown List
+        - heading "Dropdown List page for Automation Testing Practice" [level=1] [ref=e56]
+        - paragraph [ref=e59]:
+          - text: You can use this Dropdown page for practicing test automation with Selenium or other tools like Playwright, Cypress, etc.
+          - link "Selenium automation course" [ref=e60] [cursor=pointer]:
+            - img [ref=e62]
+            - text: Selenium automation course
+          - link "Automation testing courses" [ref=e64] [cursor=pointer]:
+            - img [ref=e66]
+            - text: Automation testing courses
+        - generic [ref=e68]:
+          - heading "Simple dropdown" [level=2] [ref=e69]
+          - combobox [ref=e71]:
+            - option "Please select an option" [disabled]
+            - option "Option 1"
+            - option "Option 2" [selected]
+        - generic [ref=e72]:
+          - heading "Select your date of birth" [level=2] [ref=e73]
+          - generic [ref=e74]:
+            - generic [ref=e75]: "Elements per Page:"
+            - combobox "Elements per Page:" [ref=e76]:
+              - option "10" [selected]
+              - option "20"
+              - option "50"
+              - option "100"
+        - generic [ref=e77]:
+          - heading "Country selection" [level=2] [ref=e78]
+          - paragraph [ref=e80]:
+            - combobox [ref=e81]:
+              - option "Select country" [disabled] [selected]
+              - option "Afghanistan"
+              - option "Aland Islands"
+              - option "Albania"
+              - option "Algeria"
+              - option "American Samoa"
+              - option "Andorra"
+              - option "Angola"
+              - option "Anguilla"
+              - option "Antarctica"
+              - option "Antigua and Barbuda"
+              - option "Argentina"
+              - option "Armenia"
+              - option "Aruba"
+              - option "Australia"
+              - option "Austria"
+              - option "Azerbaijan"
+              - option "Bahamas"
+              - option "Bahrain"
+              - option "Bangladesh"
+              - option "Barbados"
+              - option "Belarus"
+              - option "Belgium"
+              - option "Belize"
+              - option "Benin"
+              - option "Bermuda"
+              - option "Bhutan"
+              - option "Bolivia"
+              - option "Bonaire, Sint Eustatius and Saba"
+              - option "Bosnia and Herzegovina"
+              - option "Botswana"
+              - option "Bouvet Island"
+              - option "Brazil"
+              - option "British Indian Ocean Territory"
+              - option "Brunei Darussalam"
+              - option "Bulgaria"
+              - option "Burkina Faso"
+              - option "Burundi"
+              - option "Cambodia"
+              - option "Cameroon"
+              - option "Canada"
+              - option "Cape Verde"
+              - option "Cayman Islands"
+              - option "Central African Republic"
+              - option "Chad"
+              - option "Chile"
+              - option "China"
+              - option "Christmas Island"
+              - option "Cocos (Keeling) Islands"
+              - option "Colombia"
+              - option "Comoros"
+              - option "Congo"
+              - option "Congo, Democratic Republic of the Congo"
+              - option "Cook Islands"
+              - option "Costa Rica"
+              - option "Cote D'Ivoire"
+              - option "Croatia"
+              - option "Cuba"
+              - option "Curacao"
+              - option "Cyprus"
+              - option "Czech Republic"
+              - option "Denmark"
+              - option "Djibouti"
+              - option "Dominica"
+              - option "Dominican Republic"
+              - option "Ecuador"
+              - option "Egypt"
+              - option "El Salvador"
+              - option "Equatorial Guinea"
+              - option "Eritrea"
+              - option "Estonia"
+              - option "Ethiopia"
+              - option "Falkland Islands (Malvinas)"
+              - option "Faroe Islands"
+              - option "Fiji"
+              - option "Finland"
+              - option "France"
+              - option "French Guiana"
+              - option "French Polynesia"
+              - option "French Southern Territories"
+              - option "Gabon"
+              - option "Gambia"
+              - option "Georgia"
+              - option "Germany"
+              - option "Ghana"
+              - option "Gibraltar"
+              - option "Greece"
+              - option "Greenland"
+              - option "Grenada"
+              - option "Guadeloupe"
+              - option "Guam"
+              - option "Guatemala"
+              - option "Guernsey"
+              - option "Guinea"
+              - option "Guinea-Bissau"
+              - option "Guyana"
+              - option "Haiti"
+              - option "Heard Island and Mcdonald Islands"
+              - option "Holy See (Vatican City State)"
+              - option "Honduras"
+              - option "Hong Kong"
+              - option "Hungary"
+              - option "Iceland"
+              - option "India"
+              - option "Indonesia"
+              - option "Iran, Islamic Republic of"
+              - option "Iraq"
+              - option "Ireland"
+              - option "Isle of Man"
+              - option "Italy"
+              - option "Jamaica"
+              - option "Japan"
+              - option "Jersey"
+              - option "Jordan"
+              - option "Kazakhstan"
+              - option "Kenya"
+              - option "Kiribati"
+              - option "Korea, Democratic People's Republic of"
+              - option "Korea, Republic of"
+              - option "Kosovo"
+              - option "Kuwait"
+              - option "Kyrgyzstan"
+              - option "Lao People's Democratic Republic"
+              - option "Latvia"
+              - option "Lebanon"
+              - option "Lesotho"
+              - option "Liberia"
+              - option "Libyan Arab Jamahiriya"
+              - option "Liechtenstein"
+              - option "Lithuania"
+              - option "Luxembourg"
+              - option "Macao"
+              - option "Macedonia, the Former Yugoslav Republic of"
+              - option "Madagascar"
+              - option "Malawi"
+              - option "Malaysia"
+              - option "Maldives"
+              - option "Mali"
+              - option "Malta"
+              - option "Marshall Islands"
+              - option "Martinique"
+              - option "Mauritania"
+              - option "Mauritius"
+              - option "Mayotte"
+              - option "Mexico"
+              - option "Micronesia, Federated States of"
+              - option "Moldova, Republic of"
+              - option "Monaco"
+              - option "Mongolia"
+              - option "Montenegro"
+              - option "Montserrat"
+              - option "Morocco"
+              - option "Mozambique"
+              - option "Myanmar"
+              - option "Namibia"
+              - option "Nauru"
+              - option "Nepal"
+              - option "Netherlands"
+              - option "Netherlands Antilles"
+              - option "New Caledonia"
+              - option "New Zealand"
+              - option "Nicaragua"
+              - option "Niger"
+              - option "Nigeria"
+              - option "Niue"
+              - option "Norfolk Island"
+              - option "Northern Mariana Islands"
+              - option "Norway"
+              - option "Oman"
+              - option "Pakistan"
+              - option "Palau"
+              - option "Palestinian Territory, Occupied"
+              - option "Panama"
+              - option "Papua New Guinea"
+              - option "Paraguay"
+              - option "Peru"
+              - option "Philippines"
+              - option "Pitcairn"
+              - option "Poland"
+              - option "Portugal"
+              - option "Puerto Rico"
+              - option "Qatar"
+              - option "Reunion"
+              - option "Romania"
+              - option "Russian Federation"
+              - option "Rwanda"
+              - option "Saint Barthelemy"
+              - option "Saint Helena"
+              - option "Saint Kitts and Nevis"
+              - option "Saint Lucia"
+              - option "Saint Martin"
+              - option "Saint Pierre and Miquelon"
+              - option "Saint Vincent and the Grenadines"
+              - option "Samoa"
+              - option "San Marino"
+              - option "Sao Tome and Principe"
+              - option "Saudi Arabia"
+              - option "Senegal"
+              - option "Serbia"
+              - option "Serbia and Montenegro"
+              - option "Seychelles"
+              - option "Sierra Leone"
+              - option "Singapore"
+              - option "Sint Maarten"
+              - option "Slovakia"
+              - option "Slovenia"
+              - option "Solomon Islands"
+              - option "Somalia"
+              - option "South Africa"
+              - option "South Georgia and the South Sandwich Islands"
+              - option "South Sudan"
+              - option "Spain"
+              - option "Sri Lanka"
+              - option "Sudan"
+              - option "Suriname"
+              - option "Svalbard and Jan Mayen"
+              - option "Swaziland"
+              - option "Sweden"
+              - option "Switzerland"
+              - option "Syrian Arab Republic"
+              - option "Taiwan, Province of China"
+              - option "Tajikistan"
+              - option "Tanzania, United Republic of"
+              - option "Thailand"
+              - option "Timor-Leste"
+              - option "Togo"
+              - option "Tokelau"
+              - option "Tonga"
+              - option "Trinidad and Tobago"
+              - option "Tunisia"
+              - option "Turkey"
+              - option "Turkmenistan"
+              - option "Turks and Caicos Islands"
+              - option "Tuvalu"
+              - option "Uganda"
+              - option "Ukraine"
+              - option "United Arab Emirates"
+              - option "United Kingdom"
+              - option "United States"
+              - option "United States Minor Outlying Islands"
+              - option "Uruguay"
+              - option "Uzbekistan"
+              - option "Vanuatu"
+              - option "Venezuela"
+              - option "Viet Nam"
+              - option "Virgin Islands, British"
+              - option "Virgin Islands, U.s."
+              - option "Wallis and Futuna"
+              - option "Western Sahara"
+              - option "Yemen"
+              - option "Zambia"
+              - option "Zimbabwe"
+      - insertion [ref=e83]:
+        - generic [ref=e85]:
+          - generic "These are topics related to the article that might interest you" [ref=e86]: Discover more
+          - link "Selenium" [ref=e87] [cursor=pointer]:
+            - img [ref=e89]
+            - text: Selenium
+          - link "Online coding practice environments" [ref=e91] [cursor=pointer]:
+            - img [ref=e93]
+            - text: Online coding practice environments
+          - link "QA automation books" [ref=e95] [cursor=pointer]:
+            - img [ref=e97]
+            - text: QA automation books
+          - link "test" [ref=e99] [cursor=pointer]:
+            - img [ref=e101]
+            - text: test
+          - link "Test automation" [ref=e103] [cursor=pointer]:
+            - img [ref=e105]
+            - text: Test automation
+          - link "Playwright" [ref=e107] [cursor=pointer]:
+            - img [ref=e109]
+            - text: Playwright
+          - link "API testing examples" [ref=e111] [cursor=pointer]:
+            - img [ref=e113]
+            - text: API testing examples
+          - link "Automation Testing" [ref=e115] [cursor=pointer]:
+            - img [ref=e117]
+            - text: Automation Testing
+          - link "Webhooks testing platform" [ref=e119] [cursor=pointer]:
+            - img [ref=e121]
+            - text: Webhooks testing platform
+          - link "Testing automation software" [ref=e123] [cursor=pointer]:
+            - img [ref=e125]
+            - text: Testing automation software
+    - link "Software testing tools" [ref=e127] [cursor=pointer]:
+      - img [ref=e129]
+      - text: Software testing tools
+    - link "Automation software" [ref=e131] [cursor=pointer]:
+      - img [ref=e133]
+      - text: Automation software
+  - contentinfo [ref=e135]:
+    - generic [ref=e140]:
+      - heading "Practice Test Automation WebSite for Web UI and Rest API" [level=4] [ref=e141]
+      - paragraph [ref=e142]:
+        - text: "Version: 935c019b | Copyright"
+        - link "Expand Testing" [ref=e143] [cursor=pointer]:
+          - /url: https://expandtesting.com/
+        - text: "2025"
+  - insertion [ref=e144]:
+    - iframe [ref=e147]:
+      - generic [ref=f4e3]:
+        - button [ref=f4e4]:
+          - img [ref=f4e5]
+        - generic [ref=f4e7]:
+          - button "Replay" [ref=f4e15]:
+            - img [ref=f4e17] [cursor=pointer]
+          - button "Learn more" [ref=f4e24] [cursor=pointer]
+  - img [ref=e149] [cursor=pointer]
+```

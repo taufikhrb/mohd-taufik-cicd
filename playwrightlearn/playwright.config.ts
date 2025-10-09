@@ -6,7 +6,10 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,
-  reporter: 'html',
+    reporter: [
+      ['html'],
+      ['allure-playwright'],
+    ],
 
   use: {
     trace: 'on-first-retry',
@@ -17,13 +20,21 @@ export default defineConfig({
       name: 'chromium',
       use: {
         ...devices['Desktop Chrome'],
-        viewport: null,
-        deviceScaleFactor: undefined,    // remove deviceScaleFactor to fix error
+        viewport: { width: 1920, height: 1080 },
+
         launchOptions: {
           args: ['--start-maximized'],
-          headless: false,
+          headless: process.env.HEADLESS === 'true',
         },
       },
     },
+    // {
+    //   name: 'firefox',
+    //   use: { ...devices['Desktop Firefox'] },
+    // },
+    // {
+    //   name: 'webkit',
+    //   use: { ...devices['Desktop Safari'] },
+    // },
   ],
 });

@@ -1,0 +1,459 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - paragraph [ref=e3]:
+    - link "TestifyStack" [ref=e4] [cursor=pointer]:
+      - /url: https://testifystack.com/
+    - text: "| Email, SMS, OTP and Webhooks Testing Stack for QA & Dev"
+    - link "QA testing services" [ref=e5] [cursor=pointer]:
+      - img [ref=e7]
+      - text: QA testing services
+    - link "Quality assurance jobs" [ref=e9] [cursor=pointer]:
+      - img [ref=e11]
+      - text: Quality assurance jobs
+  - banner [ref=e14]:
+    - navigation "Main navigation" [ref=e15]:
+      - link "SUT" [ref=e16] [cursor=pointer]:
+        - /url: /
+        - 'img "Best Website for Practice Automation Testing: Free UI and REST API Examples and Apps. Using Cypress, Playwright, Selenium, WebdriverIO and Postman." [ref=e17]'
+        - text: Practice
+      - generic [ref=e18]:
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - button "Demos" [ref=e21] [cursor=pointer]
+          - listitem [ref=e22]:
+            - link "Tools" [ref=e23] [cursor=pointer]:
+              - /url: /#tools
+          - listitem [ref=e24]:
+            - link "Tips" [ref=e25] [cursor=pointer]:
+              - /url: /tips
+          - listitem [ref=e26]:
+            - link "Test Cases" [ref=e27] [cursor=pointer]:
+              - /url: /test-cases
+          - listitem [ref=e28]:
+            - link "API Testing" [ref=e29] [cursor=pointer]:
+              - /url: /notes/api/api-docs/
+          - listitem [ref=e30]:
+            - link "About" [ref=e31] [cursor=pointer]:
+              - /url: /about
+        - list
+        - link "Free ISTQB Mock Exams" [ref=e32] [cursor=pointer]:
+          - /url: https://istqb.expandtesting.com/
+  - main [ref=e33]:
+    - insertion [ref=e37]:
+      - generic [ref=e39]:
+        - generic "These are topics related to the article that might interest you" [ref=e40]: Discover more
+        - link "Automation practice website" [ref=e41] [cursor=pointer]:
+          - img [ref=e43]
+          - text: Automation practice website
+        - link "Website performance testing services" [ref=e45] [cursor=pointer]:
+          - img [ref=e47]
+          - text: Website performance testing services
+        - link "Software testing consulting services" [ref=e49] [cursor=pointer]:
+          - img [ref=e51]
+          - text: Software testing consulting services
+        - link "UI testing frameworks" [ref=e53] [cursor=pointer]:
+          - img [ref=e55]
+          - text: UI testing frameworks
+        - link "Testing automation software" [ref=e57] [cursor=pointer]:
+          - img [ref=e59]
+          - text: Testing automation software
+        - link "Test automation framework" [ref=e61] [cursor=pointer]:
+          - img [ref=e63]
+          - text: Test automation framework
+        - link "Postman API testing guides" [ref=e65] [cursor=pointer]:
+          - img [ref=e67]
+          - text: Postman API testing guides
+        - link "test automation" [ref=e69] [cursor=pointer]:
+          - img [ref=e71]
+          - text: test automation
+        - link "Cypress testing workshops" [ref=e73] [cursor=pointer]:
+          - img [ref=e75]
+          - text: Cypress testing workshops
+        - link "Testing" [ref=e77] [cursor=pointer]:
+          - img [ref=e79]
+          - text: Testing
+    - paragraph [ref=e82]:
+      - text: Do you enjoy this platform? ❤️
+      - link "Buy us a coffee" [ref=e83] [cursor=pointer]:
+        - /url: https://www.buymeacoffee.com/expandtesting
+    - generic [ref=e84]:
+      - insertion [ref=e86]:
+        - generic [ref=e88]:
+          - generic "These are topics related to the article that might interest you" [ref=e89]: Discover more
+          - link "test automation" [ref=e90] [cursor=pointer]:
+            - img [ref=e92]
+            - text: test automation
+          - link "Automation practice website" [ref=e94] [cursor=pointer]:
+            - img [ref=e96]
+            - text: Automation practice website
+          - link "Programming language courses" [ref=e98] [cursor=pointer]:
+            - img [ref=e100]
+            - text: Programming language courses
+          - link "WebdriverIO testing tools" [ref=e102] [cursor=pointer]:
+            - img [ref=e104]
+            - text: WebdriverIO testing tools
+          - link "Postman API testing guides" [ref=e106] [cursor=pointer]:
+            - img [ref=e108]
+            - text: Postman API testing guides
+          - link "Manual testing resources" [ref=e110] [cursor=pointer]:
+            - img [ref=e112]
+            - text: Manual testing resources
+          - link "UI testing frameworks" [ref=e114] [cursor=pointer]:
+            - img [ref=e116]
+            - text: UI testing frameworks
+          - link "Cypress testing workshops" [ref=e118] [cursor=pointer]:
+            - img [ref=e120]
+            - text: Cypress testing workshops
+          - link "Dynamic dropdown testing" [ref=e122] [cursor=pointer]:
+            - img [ref=e124]
+            - text: Dynamic dropdown testing
+          - link "Automation testing tools" [ref=e126] [cursor=pointer]:
+            - img [ref=e128]
+            - text: Automation testing tools
+      - generic [ref=e132]:
+        - navigation "breadcrumb mb-2" [ref=e133]:
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - link "Home" [ref=e136] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e137]: / Dropdown List
+        - heading "Dropdown List page for Automation Testing Practice" [level=1] [ref=e138]
+        - paragraph [ref=e141]:
+          - text: You can use this Dropdown page for practicing test automation with Selenium or other tools like Playwright, Cypress, etc.
+          - link "UI testing tools" [ref=e142] [cursor=pointer]:
+            - img [ref=e144]
+            - text: UI testing tools
+          - link "Automation testing courses" [ref=e146] [cursor=pointer]:
+            - img [ref=e148]
+            - text: Automation testing courses
+        - generic [ref=e150]:
+          - heading "Simple dropdown" [level=2] [ref=e151]
+          - combobox [ref=e153]:
+            - option "Please select an option" [disabled] [selected]
+            - option "Option 1"
+            - option "Option 2"
+        - generic [ref=e154]:
+          - heading "Select your date of birth" [level=2] [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: "Elements per Page:"
+            - combobox "Elements per Page:" [ref=e158]:
+              - option "10" [selected]
+              - option "20"
+              - option "50"
+              - option "100"
+        - generic [ref=e159]:
+          - heading "Country selection" [level=2] [ref=e160]
+          - paragraph [ref=e162]:
+            - combobox [ref=e163]:
+              - option "Select country" [disabled] [selected]
+              - option "Afghanistan"
+              - option "Aland Islands"
+              - option "Albania"
+              - option "Algeria"
+              - option "American Samoa"
+              - option "Andorra"
+              - option "Angola"
+              - option "Anguilla"
+              - option "Antarctica"
+              - option "Antigua and Barbuda"
+              - option "Argentina"
+              - option "Armenia"
+              - option "Aruba"
+              - option "Australia"
+              - option "Austria"
+              - option "Azerbaijan"
+              - option "Bahamas"
+              - option "Bahrain"
+              - option "Bangladesh"
+              - option "Barbados"
+              - option "Belarus"
+              - option "Belgium"
+              - option "Belize"
+              - option "Benin"
+              - option "Bermuda"
+              - option "Bhutan"
+              - option "Bolivia"
+              - option "Bonaire, Sint Eustatius and Saba"
+              - option "Bosnia and Herzegovina"
+              - option "Botswana"
+              - option "Bouvet Island"
+              - option "Brazil"
+              - option "British Indian Ocean Territory"
+              - option "Brunei Darussalam"
+              - option "Bulgaria"
+              - option "Burkina Faso"
+              - option "Burundi"
+              - option "Cambodia"
+              - option "Cameroon"
+              - option "Canada"
+              - option "Cape Verde"
+              - option "Cayman Islands"
+              - option "Central African Republic"
+              - option "Chad"
+              - option "Chile"
+              - option "China"
+              - option "Christmas Island"
+              - option "Cocos (Keeling) Islands"
+              - option "Colombia"
+              - option "Comoros"
+              - option "Congo"
+              - option "Congo, Democratic Republic of the Congo"
+              - option "Cook Islands"
+              - option "Costa Rica"
+              - option "Cote D'Ivoire"
+              - option "Croatia"
+              - option "Cuba"
+              - option "Curacao"
+              - option "Cyprus"
+              - option "Czech Republic"
+              - option "Denmark"
+              - option "Djibouti"
+              - option "Dominica"
+              - option "Dominican Republic"
+              - option "Ecuador"
+              - option "Egypt"
+              - option "El Salvador"
+              - option "Equatorial Guinea"
+              - option "Eritrea"
+              - option "Estonia"
+              - option "Ethiopia"
+              - option "Falkland Islands (Malvinas)"
+              - option "Faroe Islands"
+              - option "Fiji"
+              - option "Finland"
+              - option "France"
+              - option "French Guiana"
+              - option "French Polynesia"
+              - option "French Southern Territories"
+              - option "Gabon"
+              - option "Gambia"
+              - option "Georgia"
+              - option "Germany"
+              - option "Ghana"
+              - option "Gibraltar"
+              - option "Greece"
+              - option "Greenland"
+              - option "Grenada"
+              - option "Guadeloupe"
+              - option "Guam"
+              - option "Guatemala"
+              - option "Guernsey"
+              - option "Guinea"
+              - option "Guinea-Bissau"
+              - option "Guyana"
+              - option "Haiti"
+              - option "Heard Island and Mcdonald Islands"
+              - option "Holy See (Vatican City State)"
+              - option "Honduras"
+              - option "Hong Kong"
+              - option "Hungary"
+              - option "Iceland"
+              - option "India"
+              - option "Indonesia"
+              - option "Iran, Islamic Republic of"
+              - option "Iraq"
+              - option "Ireland"
+              - option "Isle of Man"
+              - option "Italy"
+              - option "Jamaica"
+              - option "Japan"
+              - option "Jersey"
+              - option "Jordan"
+              - option "Kazakhstan"
+              - option "Kenya"
+              - option "Kiribati"
+              - option "Korea, Democratic People's Republic of"
+              - option "Korea, Republic of"
+              - option "Kosovo"
+              - option "Kuwait"
+              - option "Kyrgyzstan"
+              - option "Lao People's Democratic Republic"
+              - option "Latvia"
+              - option "Lebanon"
+              - option "Lesotho"
+              - option "Liberia"
+              - option "Libyan Arab Jamahiriya"
+              - option "Liechtenstein"
+              - option "Lithuania"
+              - option "Luxembourg"
+              - option "Macao"
+              - option "Macedonia, the Former Yugoslav Republic of"
+              - option "Madagascar"
+              - option "Malawi"
+              - option "Malaysia"
+              - option "Maldives"
+              - option "Mali"
+              - option "Malta"
+              - option "Marshall Islands"
+              - option "Martinique"
+              - option "Mauritania"
+              - option "Mauritius"
+              - option "Mayotte"
+              - option "Mexico"
+              - option "Micronesia, Federated States of"
+              - option "Moldova, Republic of"
+              - option "Monaco"
+              - option "Mongolia"
+              - option "Montenegro"
+              - option "Montserrat"
+              - option "Morocco"
+              - option "Mozambique"
+              - option "Myanmar"
+              - option "Namibia"
+              - option "Nauru"
+              - option "Nepal"
+              - option "Netherlands"
+              - option "Netherlands Antilles"
+              - option "New Caledonia"
+              - option "New Zealand"
+              - option "Nicaragua"
+              - option "Niger"
+              - option "Nigeria"
+              - option "Niue"
+              - option "Norfolk Island"
+              - option "Northern Mariana Islands"
+              - option "Norway"
+              - option "Oman"
+              - option "Pakistan"
+              - option "Palau"
+              - option "Palestinian Territory, Occupied"
+              - option "Panama"
+              - option "Papua New Guinea"
+              - option "Paraguay"
+              - option "Peru"
+              - option "Philippines"
+              - option "Pitcairn"
+              - option "Poland"
+              - option "Portugal"
+              - option "Puerto Rico"
+              - option "Qatar"
+              - option "Reunion"
+              - option "Romania"
+              - option "Russian Federation"
+              - option "Rwanda"
+              - option "Saint Barthelemy"
+              - option "Saint Helena"
+              - option "Saint Kitts and Nevis"
+              - option "Saint Lucia"
+              - option "Saint Martin"
+              - option "Saint Pierre and Miquelon"
+              - option "Saint Vincent and the Grenadines"
+              - option "Samoa"
+              - option "San Marino"
+              - option "Sao Tome and Principe"
+              - option "Saudi Arabia"
+              - option "Senegal"
+              - option "Serbia"
+              - option "Serbia and Montenegro"
+              - option "Seychelles"
+              - option "Sierra Leone"
+              - option "Singapore"
+              - option "Sint Maarten"
+              - option "Slovakia"
+              - option "Slovenia"
+              - option "Solomon Islands"
+              - option "Somalia"
+              - option "South Africa"
+              - option "South Georgia and the South Sandwich Islands"
+              - option "South Sudan"
+              - option "Spain"
+              - option "Sri Lanka"
+              - option "Sudan"
+              - option "Suriname"
+              - option "Svalbard and Jan Mayen"
+              - option "Swaziland"
+              - option "Sweden"
+              - option "Switzerland"
+              - option "Syrian Arab Republic"
+              - option "Taiwan, Province of China"
+              - option "Tajikistan"
+              - option "Tanzania, United Republic of"
+              - option "Thailand"
+              - option "Timor-Leste"
+              - option "Togo"
+              - option "Tokelau"
+              - option "Tonga"
+              - option "Trinidad and Tobago"
+              - option "Tunisia"
+              - option "Turkey"
+              - option "Turkmenistan"
+              - option "Turks and Caicos Islands"
+              - option "Tuvalu"
+              - option "Uganda"
+              - option "Ukraine"
+              - option "United Arab Emirates"
+              - option "United Kingdom"
+              - option "United States"
+              - option "United States Minor Outlying Islands"
+              - option "Uruguay"
+              - option "Uzbekistan"
+              - option "Vanuatu"
+              - option "Venezuela"
+              - option "Viet Nam"
+              - option "Virgin Islands, British"
+              - option "Virgin Islands, U.s."
+              - option "Wallis and Futuna"
+              - option "Western Sahara"
+              - option "Yemen"
+              - option "Zambia"
+              - option "Zimbabwe"
+      - insertion [ref=e165]:
+        - generic [ref=e167]:
+          - generic "These are topics related to the article that might interest you" [ref=e168]: Discover more
+          - link "Testing stack solutions" [ref=e169] [cursor=pointer]:
+            - img [ref=e171]
+            - text: Testing stack solutions
+          - link "Programming language courses" [ref=e173] [cursor=pointer]:
+            - img [ref=e175]
+            - text: Programming language courses
+          - link "Cypress testing workshops" [ref=e177] [cursor=pointer]:
+            - img [ref=e179]
+            - text: Cypress testing workshops
+          - link "Automation testing courses" [ref=e181] [cursor=pointer]:
+            - img [ref=e183]
+            - text: Automation testing courses
+          - link "Playwright" [ref=e185] [cursor=pointer]:
+            - img [ref=e187]
+            - text: Playwright
+          - link "UI testing practice" [ref=e189] [cursor=pointer]:
+            - img [ref=e191]
+            - text: UI testing practice
+          - link "Testing automation software" [ref=e193] [cursor=pointer]:
+            - img [ref=e195]
+            - text: Testing automation software
+          - link "WebdriverIO testing tutorials" [ref=e197] [cursor=pointer]:
+            - img [ref=e199]
+            - text: WebdriverIO testing tutorials
+          - link "Web development bootcamps" [ref=e201] [cursor=pointer]:
+            - img [ref=e203]
+            - text: Web development bootcamps
+          - link "Selenium" [ref=e205] [cursor=pointer]:
+            - img [ref=e207]
+            - text: Selenium
+    - link "QA testing services" [ref=e209] [cursor=pointer]:
+      - img [ref=e211]
+      - text: QA testing services
+    - link "Automation software" [ref=e213] [cursor=pointer]:
+      - img [ref=e215]
+      - text: Automation software
+  - contentinfo [ref=e217]:
+    - generic [ref=e222]:
+      - heading "Practice Test Automation WebSite for Web UI and Rest API" [level=4] [ref=e223]
+      - paragraph [ref=e224]:
+        - text: "Version: 935c019b | Copyright"
+        - link "Expand Testing" [ref=e225] [cursor=pointer]:
+          - /url: https://expandtesting.com/
+        - text: "2025"
+  - img [ref=e227] [cursor=pointer]
+  - insertion [ref=e229]:
+    - iframe [ref=e232]:
+      - generic [ref=f1e3]:
+        - button [ref=f1e4]:
+          - img [ref=f1e5]
+        - generic [ref=f1e7]:
+          - button "Replay" [ref=f1e15]:
+            - img [ref=f1e17] [cursor=pointer]
+          - button "Learn more" [ref=f1e24] [cursor=pointer]
+```

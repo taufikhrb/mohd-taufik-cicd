@@ -1,8 +1,8 @@
 import { test, chromium, expect } from '@playwright/test';
 
-test('homepage has Flipkart title', async () => {
+test('homepage has Flipkart title', async ({browser}) => {
 
-  const browser=await chromium.launch()
+  //const browser=await chromium.launch()
   const context=await browser.newContext()
   const page=await context.newPage();
 
