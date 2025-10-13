@@ -3,7 +3,9 @@ package seleniumPract;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -15,7 +17,14 @@ public class brokenLinks {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://www.deadlinkcity.com/");
+		
 		List <WebElement> links=driver.findElements(By.tagName("a"));
+		Set<String> windowHandles=driver.getWindowHandles();
+		List<String> handle=new ArrayList<String>(windowHandles);
+		
+			
+		String parent=handle.get(0);
+		
 		System.out.println("Total no of links "+links.size());
 		
 		for (WebElement linkElement : links) {

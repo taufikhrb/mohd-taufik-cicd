@@ -3,19 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNg.OrangeHrmsTest">
+      <class name="testNg.testNgDay1">
         <methods>
-          <include name="afterClass"/>
-          <include name="verifyLogo"/>
-          <include name="afterTest"/>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
-          <include name="afterMethod"/>
-          <include name="beforeTest"/>
-          <include name="beforeClass"/>
-          <include name="beforeMethod"/>
+          <include name="homePage"/>
         </methods>
-      </class> <!-- testNg.OrangeHrmsTest -->
+      </class> <!-- testNg.testNgDay1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

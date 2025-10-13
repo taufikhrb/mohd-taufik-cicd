@@ -1,6 +1,6 @@
 import { chromium, test ,request} from "@playwright/test";
 
-test.only("Login to application", async () => {
+test("Login to application", async () => {
     const browser = await chromium.launch();
     const context = await browser.newContext();
     const page = await context.newPage();

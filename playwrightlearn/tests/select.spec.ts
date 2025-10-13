@@ -1,6 +1,7 @@
 import {test, expect } from "@playwright/test"
+import { request } from "http";
 
-test('Select class demo', async ({page,browser}) => {
+test('Select class demo', async ({page,browser,request}) => {
    
     
 
@@ -13,6 +14,11 @@ test('Select class demo', async ({page,browser}) => {
     const context1=await browser.newContext();
     const page1=await context1.newPage();
     await page1.goto("http://regression.myresman.com/");
+    const title=await page1.title();
+    console.log("The title of the page is",title);
+    const response=await request.get("https://practice.expandtesting.com/dropdown");
+    console.log("The status code is",response.status());
+    await expect(response).toBeOK();
 
 
   
